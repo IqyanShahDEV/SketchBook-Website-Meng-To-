@@ -36,7 +36,7 @@ export function MengToSketchbookLandingPage({
     <main className="shader-frame" style={style}>
       <iframe
         title="Meng To - Singapore Sketchbook"
-        src="/landing-pages/meng-to-sketchbook.html"
+        src={`${import.meta.env.BASE_URL}landing-pages/meng-to-sketchbook.html`}
         loading="eager"
       />
     </main>
